@@ -89,7 +89,7 @@ public class ProdutoPedidoServiceTest {
 	}
 	
 	@Test
-	@DisplayName("Deve verificar a disponibilidade quando o qtdEstoque for menor que a quantidade ProdutoPedido.")
+	@DisplayName("Deve verificar a disponibilidade quando o qtdEstoque for igual que a quantidade ProdutoPedido.")
 	void deveVerificarDisponibilidade_QuandoQuantidadeEstoqueForIgualQueQuantidadeDoProdutoPedido() {
 		//Dado
 		Produto produto = new Produto("Empadão", "Massa com recheio saboroso.", new BigDecimal(10.5), true, 2);
